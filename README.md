@@ -1,9 +1,9 @@
-# 📱 Mobile Price Prediction using Machine Learning
+# 📱 Mobile Price Prediction (ML Project)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Project](https://img.shields.io/badge/Project-ML%20Lab-blueviolet)
+![Project](https://img.shields.io/badge/Type-Classification-blueviolet)
 
 ---
 
@@ -11,24 +11,23 @@
 
 This project predicts the **price range of mobile phones** using Machine Learning techniques.
 
-The dataset is **custom generated**, and classification models are used to categorize mobiles into different price ranges.
+A **custom dataset** was generated and used to train classification models.
 
 ---
 
 ## 🎯 Objective
 
-- Build a classification model  
-- Predict mobile price range (0–3)  
-- Compare multiple ML algorithms  
-- Evaluate performance using metrics  
+- Predict mobile price category (0–3)
+- Apply supervised learning
+- Compare multiple ML models
+- Evaluate performance using metrics
 
 ---
 
-## 📊 Dataset
+## 📊 Dataset Information
 
-- Custom dataset generated using Python  
-- Total records: **1000**  
-- Features:  
+- Total Records: **1000**
+- Features:
   - battery_power  
   - ram  
   - px_height  
@@ -44,18 +43,16 @@ The dataset is **custom generated**, and classification models are used to categ
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-- Checked dataset structure  
-- Verified missing values  
-- Visualized data using:
+- Checked dataset structure and summary  
+- No missing values found  
+- Visualizations used:
   - Histograms  
-  - Bar charts  
+  - Bar Charts  
   - Heatmaps  
 
 ---
 
-## 🤖 Machine Learning Models
-
-The following supervised learning algorithms were implemented:
+## 🤖 Models Implemented
 
 - Logistic Regression  
 - Random Forest  
@@ -69,7 +66,7 @@ The following supervised learning algorithms were implemented:
 | Logistic Regression | ~85–95%  |
 | Random Forest       | ~95–100% |
 
-👉 **Best Model:** Random Forest
+👉 **Best Model: Random Forest**
 
 ---
 
@@ -78,14 +75,17 @@ The following supervised learning algorithms were implemented:
 - Accuracy  
 - Precision  
 - Recall  
-- F1-Score  
+- F1-score  
 - Confusion Matrix  
 
 ---
 
-## 🧠 Conclusion
+## 🧠 Performance Explanation
 
-Random Forest performed better because it can handle complex relationships in the data, while Logistic Regression is a linear model.
+Random Forest performed better because:
+- It handles complex patterns  
+- Works well with feature interactions  
+- Reduces overfitting using multiple trees  
 
 ---
 
